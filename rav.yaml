@@ -1,0 +1,16 @@
+scripts:
+  install:
+    - python3 -m venv .venv
+    - . .venv/bin/activate
+    - pip install -r requirements.txt
+  dev:
+    - python3 manage.py crontab remove
+    - python3 manage.py crontab add
+    - python3 manage.py crontab show
+    - gunicorn --env DJANGO_SETTINGS_MODULE=filmsphere_backend.settings.development filmsphere_backend.wsgi:application --bind 0.0.0.0:8000
+
+  prod:
+    - python3 manage.py crontab remove
+    - python3 manage.py crontab add
+    - python3 manage.py crontab show
+    - gunicorn --env DJANGO_SETTINGS_MODULE=filmsphere_backend.settings.production filmsphere_backend.wsgi:application --bind 0.0.0.0:8000

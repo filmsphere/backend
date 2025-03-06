@@ -1,0 +1,16 @@
+django
+psycopg2-binary
+python-dotenv
+django-ninja
+rav
+django-extensions
+django-cors-headers
+pyotp
+django-ratelimit
+requests
+pydot
+uvicorn
+django-crontab
+qrcode
+Pillow
+gunicorn
