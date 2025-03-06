@@ -2,7 +2,7 @@
 
 - FilmSphere is an open-source, educational project inspired by roadmap.sh, allowing users to browse movies, book virtual show tickets using a coin-based system, and interact with features like an interactive seating layout and booking history.
 
-![image](https://github.com/user-attachments/assets/94f410ce-670f-4441-abed-2b9e44888a6e)
+![image](banner.png)
 
 - Motivation - https://roadmap.sh/projects/movie-reservation-system
 - Sibling project - https://github.com/filmsphere/frontend/
