@@ -23,7 +23,7 @@
 ## Database design
 - Generated using django-extensions
 
-![models_schema](models_schema.png)
+![models_schema](assets/models_schema.png)
 
 ---
 
@@ -42,7 +42,7 @@
 ## Cloud Architecture [AWS]
 - Tried to fit everything under the AWS Free trial
 
-![cloud_architecture](cloud_architecture.png)
+![cloud_architecture](assets/cloud_architecture.png)
 
 ---
 
